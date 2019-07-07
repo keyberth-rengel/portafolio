@@ -338,7 +338,11 @@ footer .redes-sociales .instagram:hover { background: #3f729b; }
 		width: 46%;
 	}
 }
-
+@media screen and (max-width: 800px) {
+	.main .tecnologias .contenedor-tecnologias .tecnologia {
+		width: 46%;
+	}
+}
 @media screen and (max-width: 500px) {
 	header .contenedor-texto .texto .nombre {
 		font-size: 35px;
